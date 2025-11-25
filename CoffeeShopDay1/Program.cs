@@ -32,7 +32,7 @@ while (true)
 
     // Nhập lựa chọn
     Console.Write("\nChọn món (nhập số): ");
-    string input = Console.ReadLine();
+    string input = Console.ReadLine() ?? "";
 
     // Kiểm tra nếu khách muốn thoát
     if (input == "0")

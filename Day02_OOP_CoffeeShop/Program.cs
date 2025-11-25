@@ -67,7 +67,7 @@ namespace Day02_OOP_CoffeeShop
                 Console.Write("\nChọn số thứ tự món: ");
                 try
                 {
-                    int index = int.Parse(Console.ReadLine()) - 1;
+                    int index = int.Parse(Console.ReadLine() ?? "") - 1;
 
                     if (index >= 0 && index < menu.Count)
                     {
